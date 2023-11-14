@@ -1,0 +1,30 @@
+/* --------------------- BODY ---------------------- */
+
+.masthead {
+    padding-top: calc(1.5rem + 104px);
+    padding-bottom: 6rem;
+}
+
+.w-100 {
+    width: 100% !important;
+    padding-bottom: 1rem;
+}
+
+.btn-lg {
+    --bs-btn-border-radius: 0.5rem;
+}
+
+#masthead {
+    @media (max-width: 992px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+/* --------------------- FOOTER ---------------------- */
+.footer {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
