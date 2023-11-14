@@ -1,5 +1,13 @@
 /* --------------------- BODY ---------------------- */
 
+.imageintro {
+    @media (max-width: 992px) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .masthead {
     padding-top: calc(1.5rem + 104px);
     padding-bottom: 6rem;
