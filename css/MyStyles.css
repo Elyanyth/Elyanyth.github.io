@@ -33,8 +33,10 @@
 
 .apptitude {
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .progress {
@@ -46,6 +48,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.card-div{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /* --------------------- FOOTER ---------------------- */
